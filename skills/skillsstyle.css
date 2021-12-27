@@ -1,7 +1,6 @@
 body{
     background-color: black;
     color: white;
-    text-align: center;
     font-size: medium;
 }
 
@@ -10,4 +9,9 @@ button{
     color: white;
     padding: 15px;
     font-size: medium;
+}
+
+.centered-div{
+    color: white;
+    background-color: black;
 }

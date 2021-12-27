@@ -2,6 +2,7 @@ body{
     background-color: black;
     color: white;
     font-size: medium;
+    font: poppins semi-bold;
 }
 
 button{

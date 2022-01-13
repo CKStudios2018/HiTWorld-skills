@@ -1,13 +1,25 @@
 {
     "skills":{
         "inner":{
-            "regex":0,"other":0
+            "Magica basic":0,
+            "Magic Arrow":0,
+            "Short dash":0
         },"power":{
-            "other":0
+            "Shadows":0,
+            "Splash dash":0,
+            "call of the dead":0
         }, "outer":{
-            "other": 0
+            "Rain of Arrows":0,
+            "Extreme Defense":0,
+            "Poison":0,
+            "Triple Arrow":0,
+            "Killers Mark":0
         }, "passive":{
-            "other":0
+            "Regeneration Basic":0,
+            "Range Basic":0,
+            "HP Boost":0,
+            "Known SKill":0,
+            "Shadow Exploit":0
         }
     }
 }

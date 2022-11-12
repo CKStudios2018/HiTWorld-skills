@@ -18,11 +18,13 @@ These are some useful tips to help you with developing your fork of HiT World di
 
   Theoretically, the "world" or "landscape" for HiT World should've been made using a tilemap. Instead, it's manually placed tile assets, which we like to call "block"'s.
   
-  To help you speed along the process of placing these blocks, it's worth noting that you can place them evenly at an interval of `x+1.12` with `x` being where your previously placed block was. For example, if I place a `path-straight` block at `x = 0; z = 1.6` the next block would be placed above it at `x = 0; y = 2.72`, then `x = 0; y = 3.84`.
+  To help you speed along the process of placing these blocks, it's worth noting that you can place them evenly at an interval of `x+1.12` (or `y+1.12` for placing the block next to another one) with `x` (or `y`) being where your previously placed block was. For example, if I place a `path-straight` block at `x = 0; y = 1.61` the next block would be placed above it at `x = 0; y = 2.73`, then `x = 0; y = 3.85`.
   
-  For `path-junction` block's, there's a bit more math involved. To attach `path-straight` block to it, you need to do `x*1.7` to get a block above it, or `x/1.7` to get the block below it.
+  For `path-junction` block's, it's just as simple, with a slightly different formula. To attach `path-straight` block to it, you need to do `x*1.7` to get a block above it, or `x/1.7` to get the block below it (same applies for `y` values). i.e `path_junction` at `x = 0; y = 0;` goes to `x = 1.7; y = 0;`.
   
-  To do the reverse (put a `path-junction` tile around a `path-straight`), simply add or subtract 1.85 on `x`.
+  To do the reverse (put a `path_junction` tile around a `path_straight`), simply add or subtract 1.85 on `x` or `y`.
+  
+  **We recommend that all** `paths` **have a** `z` **value of** `1`**.**
   
 - Music
 

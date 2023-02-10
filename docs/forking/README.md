@@ -31,3 +31,7 @@ These are some useful tips to help you with developing your fork of HiT World di
   Another theoretical, yet untrue process, is the sounds. HiT World should, like any good game, have a sound engine. Instead, we slapped the music file onto our `player` object. *You are always the player, so you'll always hear the music*
   
   Please, for your own sake, use or create your own sound engine.
+
+## The updated patch
+
+HiT World has been patched to use a tilemap in v0.9.2 - A newer version of the files to download will be available to download soon!

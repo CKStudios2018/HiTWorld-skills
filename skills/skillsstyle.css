@@ -5,11 +5,29 @@ body{
     font: poppins semi-bold;
 }
 
+#centered-div {
+    text-align: center;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
 button{
     background-color: black;
     color: white;
     padding: 15px;
     font-size: medium;
+}
+
+a {
+    color: rgb(3, 177, 177);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 255, 255);
+    text-decoration: underline;
 }
 
 .centered-div{

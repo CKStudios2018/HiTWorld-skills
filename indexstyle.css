@@ -1,8 +1,11 @@
 body{
     background-color: black;
     color: white;
-    text-align: center;
     font-size: medium;
+}
+
+#centered {
+    text-align: center;
 }
 
 button{
@@ -10,4 +13,11 @@ button{
     color: white;
     padding: 15px;
     font-size: medium;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: gray;
+    color: black;
 }
